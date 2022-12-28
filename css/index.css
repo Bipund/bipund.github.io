@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+html,
+body {
+  height: 100%;
+  background-image: url("https://images.adsttc.com/media/images/62ce/db1e/4321/e201/6636/fb8d/newsletter/tohid-residential-building-hooman-balazadeh_1.jpg");
+}
+
+.login-card {
+  width: 420px;
+  height: 585px;
+  border-radius: 18px;
+  background-color: #fff;
+}
+
+.link {
+  color: #5e56cc;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+.middle-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #8d9399;
+}
+
+.label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 140%;
+  color: #bcc4cc;
+  width: 100%;
+}
+
+.input {
+  height: 44px;
+  border: 1px solid #bcc4cc;
+  border-radius: 4px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.btn-purple {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background: #5e56cc;
+  border-radius: 8px;
+  color: #fff;
+  width: 100%;
+}
+
+.forget-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #5e56cc;
+  text-decoration-line: underline;
+  text-align: center;
+  line-height: 16.8px;
+  margin-top: 24px;
+  height: 17px;
+}
+
+.alert-text-lable {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #2f3133;
+}
+
+.logo-left {
+  width: 93px;
+}
+.logo-right {
+  width: 200px;
+  padding-left: 10px;
+}

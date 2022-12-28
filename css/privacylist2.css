@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+html,
+body {
+  height: 100%;
+  background: #fcfaff;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidenav {
+  /* Auto layout */
+
+  padding: 12px;
+  gap: 4px;
+  width: 200px;
+}
+
+.sidenav-header {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 0px;
+
+  width: 176px;
+  height: 176px;
+}
+
+.logo-top {
+  position: relative;
+  width: 112.5px;
+  height: 26.88px;
+}
+.logo-bottom {
+  position: relative;
+  width: 112.5px;
+  height: 74.99px;
+}
+
+.menu-list {
+  width: 176px;
+  height: 394px;
+  top: 192px;
+  left: 12px;
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.menu-list a {
+  padding: 12px;
+  gap: 6px;
+
+  width: 176px;
+  height: 44px;
+
+  border-radius: 4px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  /* Greyscale/20 */
+
+  color: #2f3133;
+}
+
+.menu-list a:hover {
+  padding: 12px;
+  gap: 6px;
+
+  width: 176px;
+  height: 44px;
+
+  /* Indigo */
+
+  background: #5e56cc;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.container-head {
+  padding: 12px 24px;
+  gap: 60px;
+  height: 41px;
+}
+
+.container-head p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #525659;
+}
+
+.frame {
+  /* Frame */
+  height: 24px;
+  background: #424059;
+  border-bottom: 1px solid #424059;
+  border-radius: 24px 0px 0px 0px;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 24px 100px;
+  height: 2005px;
+
+  /* Inside auto layout */
+  background: #424059;
+}
+
+.bar-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  height: 44px;
+}
+
+.page-title {
+  height: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.button {
+  padding: 11px 22px;
+  height: 44px;
+  background: #5e56cc;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.card-list {
+  width: 100%;
+  border: 1px solid #e8e9eb;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  background-color: #fff;
+  height: 1837px;
+}
